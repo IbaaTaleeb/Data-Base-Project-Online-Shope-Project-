@@ -35,7 +35,7 @@ def get_next_user_id():
         connection = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="1201319",
+            password="password",
             database="online_shope"
         )
         cursor = connection.cursor()
