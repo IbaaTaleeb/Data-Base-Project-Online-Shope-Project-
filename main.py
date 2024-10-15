@@ -35,7 +35,7 @@ def get_next_user_id():
         connection = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="password",
+            password="Password",
             database="online_shope"
         )
         cursor = connection.cursor()
@@ -82,7 +82,7 @@ def sign_up():
         connection = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="1201319",
+            password="Password",
             database="online_shope"
         )
         cursor = connection.cursor()
@@ -118,7 +118,7 @@ def log_in():
         connection = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="1201319",
+            password="Password",
             database="online_shope"
         )
 
@@ -173,7 +173,7 @@ def forget_password():
         connection = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="1201319",
+            password="Password",
             database="online_shope"
         )
 
@@ -243,7 +243,7 @@ def show_categories_window(customer_id):
             connection = mysql.connector.connect(
                 host="localhost",
                 user="root",
-                password="1201319",
+                password="Password",
                 database="online_shope"
             )
             cursor = connection.cursor()
@@ -265,7 +265,7 @@ def show_categories_window(customer_id):
         connection = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="1201319",
+            password="Password",
             database="online_shope"
         )
         cursor = connection.cursor()
@@ -308,7 +308,7 @@ def show_categories_window(customer_id):
                 connection = mysql.connector.connect(
                     host="localhost",
                     user="root",
-                    password="1201319",
+                    password="Password",
                     database="online_shope"
                 )
                 cursor = connection.cursor()
@@ -374,7 +374,7 @@ def show_categories_window(customer_id):
             connection = mysql.connector.connect(
                 host="localhost",
                 user="root",
-                password="1201319",
+                password="Password",
                 database="online_shope"
             )
             cursor = connection.cursor()
@@ -404,7 +404,7 @@ def show_categories_window(customer_id):
                     connection = mysql.connector.connect(
                         host="localhost",
                         user="root",
-                        password="1201319",
+                        password="Password",
                         database="online_shope"
                     )
                     cursor = connection.cursor()
