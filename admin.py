@@ -356,8 +356,8 @@ def UI():
     try:
         connection = mysql.connector.connect(
             host="localhost",
-            user="root",
-            password="1201319",
+            user=" data base user name",
+            password="password!!",
             database="online_shope"
         )
         cursor = connection.cursor()
